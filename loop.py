@@ -12,8 +12,8 @@ while x< 5:
     print(x)
     x+=1 #x= x+1
 
-    str = 'Hi  loop!'
 
+str = 'Hi, loop!'
 for i in str:
     if i == ',':
         break
