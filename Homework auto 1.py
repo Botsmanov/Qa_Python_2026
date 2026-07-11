@@ -34,13 +34,13 @@ from remember import words
 # result = print_substring_reverse(text, 5 ,9)
 # print(result)
 
-def get_words_reverse (str):
-    words = str.split()
+def get_words_reverse (text):
+    words = text.split()
     words.reverse()
     result = " ".join(words)
     return result
-text = "I like Python"
-result = get_words_reverse(text)
+t = "i live in Israel"
+result = get_words_reverse(t)
 print(result)
 
 
