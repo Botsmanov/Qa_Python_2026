@@ -19,6 +19,7 @@ def is_number_from_1_to_255(value):
         return "Value is out of range"
     return True
 
+
 print(is_number_from_1_to_255(254))
 
 
@@ -39,3 +40,6 @@ def is_israel_mobile(phone):
 
 print(is_israel_mobile("054-123-4567"))
 print(is_israel_mobile("54-1234567"))
+
+
+# homework 7 finished
